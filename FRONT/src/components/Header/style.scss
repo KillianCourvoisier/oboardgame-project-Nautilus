@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+  min-width: 375px;
+  margin: auto;
+  background-color: rgb(230, 206, 75);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(230,206,75,1) 82%);
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #321d53;
+  &__logo {
+    width: 40%;
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    &__container {
+      width: 100%;
+      margin: auto;
+    }
+    &__svg {
+      width: 100%;
+      margin: auto;
+      height: auto;
+    }
+  }
+  &__nav {
+    width: 60%;
+    // border: 1px solid black;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__link,
+    &__link--connexion {
+      border: #321d53 2px solid;
+      border-radius: 10px;
+      margin: 0.5em;
+      padding: 0.25em;
+      width: 20%;
+      min-width: 110px;
+      max-width: 110px;
+      height: 20%;
+      min-height: 50px;
+      font-weight: bolder;
+      font-size: 1.2em;
+    }
+    &__link:hover {
+      background-color: darkslateblue;
+      color: white;
+      cursor: pointer;
+      box-shadow: 7px 7px darken(#321d53, 20%), -7px -7px lighten(#321d53, 20%);
+      transition: 0.5s;
+      &::before {
+        border: 0px;
+      }
+    }
+    &__link--connexion:hover {
+      background-color: darkslateblue;
+      color: white;
+      cursor: pointer;
+      box-shadow: 7px 7px darken(#321d53, 20%), -7px -7px lighten(#321d53, 20%);
+      transition: 0.5s;
+      &::before {
+        border: 0px;
+      }
+    }
+  }
+}
