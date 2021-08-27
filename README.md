@@ -59,7 +59,7 @@ Back:
 + NodesJS,
 + Sqitch,
 + PostgreSQL,
-+ Expess (Active Record)
++ Express (Active Record)
 
 _____________________________________________________________
 
