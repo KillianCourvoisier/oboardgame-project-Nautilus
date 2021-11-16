@@ -87,8 +87,8 @@ Here is the V1 of Oboardgame.
 
 Everyone in the team involved his best in this realisation, in one month deadline, after five month of intensive learning in a new professional branch for each of us.
 
-We do want to continue the development of Oboardgame but we're all busy with life since then, so stay tuned for potential evolutions.
+We do want to continue the development of Oboardgame but we're all busy with life since then, so stay tuned for potentialevolutions.
 
-Hope you like the concept !
+Hope you like the concept!
 
 __Killian Courvoisier__ - *Lead Dev Back on Oboardgame*
